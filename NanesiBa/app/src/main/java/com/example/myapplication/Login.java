@@ -39,9 +39,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
                 try {
                     JSONArray array = new JSONArray(odgovor);
-                    //odgovor spakujemo u JSONArray, i onda parsiramo da bismo dobili linked list
                     users = User.parseJSONArray(array);
-                    //postavljamo dobijeni povratni tekst kao tekst labele (ručno formatirano)
                 } catch (Exception e) {
 
                 }

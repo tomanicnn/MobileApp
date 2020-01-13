@@ -48,7 +48,6 @@ public class MCreate extends AppCompatActivity implements View.OnClickListener{
 
                 try {
                     JSONArray array = new JSONArray(odgovor);
-                    //odgovor spakujemo u JSONArray, i onda parsiramo da bismo dobili linked list
                     ArrayList<Restaurant> rests = Restaurant.parseJSONArray(array);
 
                     for (Restaurant r : rests) {
@@ -57,7 +56,6 @@ public class MCreate extends AppCompatActivity implements View.OnClickListener{
                     a = Integer.parseInt(i);
                     b = a + 1;
                     indexOfRest = Integer.toString(b);
-                    //postavljamo dobijeni povratni tekst kao tekst labele (ručno formatirano)
                 } catch (Exception e) {
 
                 }
