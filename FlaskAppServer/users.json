@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "firstName": "Admin",
+    "lastName": "Admin",
+    "phone": "066/321-321",
+    "email": "user@gmail.com",
+    "password": "admin",
+    "username": "admin",
+    "image": "path",
+    "isAdmin": true,
+    "orderedFood": {}
+  },
+  {
+    "id": 1,
+    "firstName": "User",
+    "lastName": "User",
+    "phone": "066/321-512",
+    "email": "user@gmail.com",
+    "password": "1234",
+    "username": "user",
+    "image": "path",
+    "isAdmin": false,
+    "orderedFood": {}
+  }
+]
