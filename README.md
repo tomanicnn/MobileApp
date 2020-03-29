@@ -1,4 +1,4 @@
-# MobileApp
+MobileApp
 Android Mobile App
 
-# In Progress
+In Progress ...
